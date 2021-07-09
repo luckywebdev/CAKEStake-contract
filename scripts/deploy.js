@@ -15,7 +15,7 @@ async function main() {
 
   // We get the contract to deploy
   const CAKEStake = await hre.ethers.getContractFactory("CAKEStake");
-  const cakeStake = await CAKEStake.deploy("0x1042493f35831299A761a46823a602cE6E8b08b9", 1616861252656000);
+  const cakeStake = await CAKEStake.deploy("0xBeF2C0415CC95b57a6e96cEE05804c8259601a2f", 1616861252656000, "0x603d0F722A4111a56F9C1c11d3429d1f3D8823fa");
 
   await cakeStake.deployed();
 

@@ -240,7 +240,7 @@ contract CAKEStake {
 		startUNIX = startDate;
 		_cakeToken = token;
 
-        plans.push(Plan(14, 80));
+        plans.push(Plan(14, 75));
         plans.push(Plan(21, 65));
         plans.push(Plan(28, 50));
         plans.push(Plan(14, 80));
